@@ -1,5 +1,5 @@
 # REGRESSION PROJECT - 
-## TIME SERIES ANALYSIS - The Case of Favorita Stores
+## TIME SERIES MACHINE LEARNING - The Case of Corporation Favorita
 
 <a name="readme-top"></a>
 
@@ -35,48 +35,48 @@
 | LP3 | Regression Project-The Case of Favorita Stores Sale Prediction |   | https://app.powerbi.com/links/qODXNlSm0d?ctid=4487b52f-f118-4830-b49d-3c298cb71075&pbi_source=linkShare |
 
 ## Project Description <a name="project-description"></a>
-Classification in machine learning and statistics is a supervised learning approach in which the computer program learns from the data given to it and makes new observations or classifications. The main goal is to identify which class/category the new data will fall into. 
+This project looks at regression models where a model is trained on a dataset in order to make predictions and forecast. The main goal of regression analysis is to underwstand how changes in the independent variables are associated with changes in the dependent variable. 
+Time Series machine learning also referred as time series forecasting is the application of machine learning techniques to analyze and predict time series data. Time series data consists of observations collected or recorded at successive points in time, making it essential in various fields. Machine learning models can be particularly useful in extracting patterns, making predictions, and uncovering insights from time series.  
 
 ## Objectives of Project <a name="objectives-of-project"></a>
-1. Learn more about classification models and help the client, a telecommunication company, to understand their data.
-2. Find the lifetime value of each customer.
-know what factors affect the rate at which customers stop using their network.
-3. Predict if a customer will churn or not
+1. Learn more about time series models and predict sales data for Corporation Favority, a large Ecuadorian-based grocery retailer. 
 
 ## Goal of Project <a name="goal-of-project"></a>
-To analyse customer churn rate and build classification models to perform churn analysis on a telecommunication company's customers
+Build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores
 
 ## Data <a name="data"></a>
 The datasets where extracted from three(3) places. 
 
-* First dataset - First 3000 records of the dataset was extracted from Microsoft SQL Server
-* Second dataset - The second 2000 records of the dataset was downloaded from OneDrive
-* Third dataset - The third part of the data was downloaded from a GitHub Repository
+* First dataset - Three (3) tables(Crude oil prices, holiday events, and stores) were extracted from Microsoft SQL Server
+* Second dataset - Two (2) tables(sampel_submission, and test) were downloaded from OneDrive
+* Third dataset - Two(2) tables (train and transactions) were downloaded from a GitHub Repository
 
 ## Hypothesis <a name="hypothesis"></a>
-* H_o: Contract type does not influence customer Churn
-* H_a: Contract type influences customer Churn
+* H_o: Promotions have no significant effect on product sales.
+* H_a: Promotions positively impact product sales, leading to increased sales during promotional periods
 
 ### Conclusion on hypothesis <a name="conclusion-on-hypothesis"></a>
-Test hypotheis with a chi-square test, we reject the null hypothesis at 5% significance value. 
+We reject the null hypothesis and conclude that promotions has significant effect on sales
 
 ## Research Questions <a name="research-questions"></a>
-1. How does gender impact customer churn? Are there significant differences in churn rates between male and female customers?
+1. What is the effect of seasonal variations (e.g., Monthly, or quarterly patterns) on total sales?
 
-2. Does the presence of a partner or dependents influence customer churn? Is there a relationship between marital status and churn behavior?
+2. What store is the highest performer in terms of sales?
 
-3. How does the length of tenure affect churn rates? Are customers with longer tenures less likely to churn compared to new customers?
+3. What are the best-selling products per location?
 
+4. Does store size affect total sales?
 
-4. What role do additional services (e.g., online security, tech support, streaming TV, etc.) play in reducing customer churn? Are customers with more services less likely to churn?
-
-5. Is there a correlation between the contract term (month-to-month, one year, two years) and churn rates? Are customers on long-term contracts less likely to churn compared to those on month-to-month contracts?
+5. Which days have the most sales?
 
 ## Installation: <a name="installation:"></a>
 * pyodbc  
 * python-dotenv
 * openpyxl
-* imbalanced-learn
+* missingno
+* scikit-learn
+* pmdarima
+* statsmodels
 
 ## Author <a name="author"></a>
 Seth Opare-Twum
