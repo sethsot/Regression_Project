@@ -39,7 +39,7 @@ This project looks at regression models where a model is trained on a dataset in
 Time Series machine learning also referred as time series forecasting is the application of machine learning techniques to analyze and predict time series data. Time series data consists of observations collected or recorded at successive points in time, making it essential in various fields. Machine learning models can be particularly useful in extracting patterns, making predictions, and uncovering insights from time series.  
 
 ## Objectives of Project <a name="objectives-of-project"></a>
-1. Learn more about time series models and predict sales data for Corporation Favority, a large Ecuadorian-based grocery retailer. 
+1. Learn more about time series models and predict sales data for Corporation Favorita, a large Ecuadorian-based grocery retailer. 
 
 ## Goal of Project <a name="goal-of-project"></a>
 Build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores
