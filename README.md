@@ -32,7 +32,7 @@
 ## Summary <a name="summary"></a>
 | Code      | Name        | Published Article |  Deployed Power BI |
 |-----------|-------------|:-------------:|------:|
-| LP3 | Regression Project-The Case of Favorita Stores Sale Prediction |   | https://app.powerbi.com/links/qODXNlSm0d?ctid=4487b52f-f118-4830-b49d-3c298cb71075&pbi_source=linkShare |
+| LP3 | Regression Project-The Case of Favorita Stores Sale Prediction | https://medium.com/@oparetwumseth/time-series-prediction-36d77d8dc639  | https://app.powerbi.com/links/qODXNlSm0d?ctid=4487b52f-f118-4830-b49d-3c298cb71075&pbi_source=linkShare |
 
 ## Project Description <a name="project-description"></a>
 This project looks at regression models where a model is trained on a dataset in order to make predictions and forecast. The main goal of regression analysis is to underwstand how changes in the independent variables are associated with changes in the dependent variable. 
